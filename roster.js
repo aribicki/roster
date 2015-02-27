@@ -1,4 +1,4 @@
-var ROSTER_FILE = "[\n " + [
+var ROSTER_FILE = [ 
   '{"playernumber":"29", "name": "Bryan Bickell", "pos": "Left", "sp": "12.50"}' 
   '{"playernumber":"13", "name": "Daniel Carcillo", "pos": "Left", "sp": "9.50"}'
   '{"playernumber":"38", "name": "Ryan Hartman", "pos": "Right", "sp": "0.00"}'
@@ -24,4 +24,5 @@ var ROSTER_FILE = "[\n " + [
   '{"playernumber":"50", "name": "Corey Crawford", "pos": "Goalie", "sp": "0.00"}'
   '{"playernumber":"31", "name": "Antti Raanta", "pos": "Goalie", "sp": "0.00"}'
   '{"playernumber":"coach", "name": "Joel Quenneville", "pos": "Head Coach", "sp": "0.00"}'
-].join(",\n ") + "\n]";;
+  ]
+
