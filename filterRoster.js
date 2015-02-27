@@ -6,7 +6,7 @@
 
 load('roster.js');
 
-var roster = JSON parse(ROSTER_FILE);
+var roster = JSON.parse(ROSTER_FILE);
 
 function filter(array, test) {
   var passed = []
@@ -19,4 +19,6 @@ function filter(array, test) {
      return passed;
      }
      
-     print(JSON.stringify(filter
+     print(JSON.stringify(filter(playernumbers, function(number) {
+       return number.playernumber < 50;
+     })));
