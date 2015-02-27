@@ -13,6 +13,6 @@ function map(array, transform) {
   return mapped;
 }
 
-print(JSON.stringify(map(shootingpecentage, function(percentage) {   //pulling shooting percentage and then x2 to show greater 
+print(JSON.stringify(map(roster, function(percentage) {   //pulling shooting percentage and then x2 to show greater 
   return Math.floor(percentage.sp *=2);                              // distance/easier to understand player performance
 })));                                                                // compared to rest of team
