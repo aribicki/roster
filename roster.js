@@ -24,5 +24,5 @@ var ROSTER_FILE = [
   '{"playernumber":"50", "name": "Corey Crawford", "pos": "Goalie", "sp": "0.00"}'
   '{"playernumber":"31", "name": "Antti Raanta", "pos": "Goalie", "sp": "0.00"}'
   '{"playernumber":"coach", "name": "Joel Quenneville", "pos": "Head Coach", "sp": "0.00"}'
-  ]
+  ];
 
