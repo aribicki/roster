@@ -19,6 +19,6 @@ function filter(array, test) {
      return passed;
      }
      
-     print(JSON.stringify(filter(playernumbers, function(number) {    // using filter to return all the player numbers under 50
+     print(JSON.stringify(filter(roster, function(number) {    // using filter to return all the player numbers under 50
        return number.playernumber < 50;                               // then could use separate function to show the names
      })));
