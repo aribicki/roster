@@ -1,4 +1,4 @@
-var ROSTER = [
+var ROSTER_FILE = "[\n " + [
   {"player":["29","Bryan Bickell","Left","12.50"]}
   {"player":["13","Daniel Carcillo","Left","9.50"]}
   {"player":["38","Ryan Hartman","Right","0.00"]}
@@ -24,4 +24,4 @@ var ROSTER = [
   {"player":["50","Corey Crawford","Goalie","0.00"]}
   {"player":["31","Antti Raanta","Goalie","0.00"]}
   {"player":["coach","Joel Quenneville","Head Coach","0.00"]}
-];
+].join(",\n ") + "\n]";;
