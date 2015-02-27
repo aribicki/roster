@@ -15,7 +15,7 @@ var ROSTER_FILE = "[\n " + [
   '{"playernumber":"26", "name": "Kyle Cumiskey", "pos":  "Def", "sp": "0.00"}',
   '{"playernumber":"34", "name": "Tim Erixon", "pos": "Def", "sp": "0.00"}',
   '{"playernumber":"4", "name": "Niklas Hjalmarsson", "pos": "Def", "sp": "3.00"}',
-  '{"playernumber":"2", "name": Duncan Keith", "pos": " "Def", "sp": "5.30"}',
+  '{"playernumber":"2", "name": "Duncan Keith", "pos": " "Def", "sp": "5.30"}',
   '{"playernumber":"27", "name": "Johnny Oduya", "pos": "Def", "sp": "3.10"}',
   '{"playernumber":"32", "name": "Michal Rozsival", "pos": "Def", "sp": "2.40"}',
   '{"playernumber":"5", "name": "David Rundblad", "pos": "Def", "sp": "6.10"}',
