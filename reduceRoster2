@@ -1,0 +1,32 @@
+// Andrew Ribicki
+// CMP 237
+
+//  COULDNT GET THIS ONE TO WORK
+
+load('roster.js')
+
+ var roster = JSON.parse(ROSTER_FILE);
+
+var high = 12.51;
+var test = [];
+for (i = 0; i <roster.length; ++i) {
+        if (roster[i].sp > high) {
+         high = roster[i].sp;
+}
+}
+print("high perc: " + high);
+
+/*      var current = start;
+for (var i = 0; i < array.length; ++i){
+         current = biggest(current, array[i]);
+}
+
+print(json.stringfy(reduce(roster)
+ var  x = 12.50;
+ if roster.sp > x) {
+  print("testing for return: " + roster.sp);
+  a = roster.sp;
+ print( "The highest shooting percentage is " + x;
+ return a;
+}
+}, ))); */
