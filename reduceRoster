@@ -1,0 +1,21 @@
+// Andrew Ribicki
+// CMP237 3/2/2015
+// Reduce Data
+
+
+load('roster.js'); // loading data set
+
+var roster = JSON.parse(ROSTER_FILE);  // setting data set = var roster
+
+function reduce(roster, combine, start) {
+ var current = start;
+ for (var i = 0; i < roster.length; i++)
+        current = combin(current, roster[i]);
+ return current;
+}
+
+print(roster.reduce(function(high, cur) {
+high = 12.70;
+if (cur > high) return cur;
+else return high;
+                         
