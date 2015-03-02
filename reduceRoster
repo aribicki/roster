@@ -14,8 +14,8 @@ function reduce(roster, combine, start) {
  return current;
 }
 
-print(roster.reduce(function(high, cur) {
-high = 12.70;
+print(roster.reduce(function(high, cur) { // compares highest sp to current
+high = 12.70; 
 if (cur > high) return cur;
 else return high;
                          
